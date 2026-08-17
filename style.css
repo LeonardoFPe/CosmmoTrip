@@ -49,3 +49,96 @@ header{
 .btn-header:hover{
   background-color: rgb(199, 8, 113);
 }
+
+main{
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0px;
+  align-items: center;
+  background-color: var(--color-black);
+}
+
+.content-main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.span-main {
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-grey);
+  border-radius: 10px;
+}
+
+.span-main p{
+  color: var(--color-pink);
+  font-weight: bold;
+  font-size: var(--font-body4);
+  font-family: var(--font-title);
+}
+
+main h1{
+  width: 549px;
+  font-size: var(--font-h1);
+  font-weight: bold;
+  height: 110%;
+  color: var(--color-white);
+  font-family: var(--font-title);
+}
+
+.item-active-main{
+  color: var(--color-pink);
+}
+
+.content-main{
+  width: 513px;
+  height: 140%;
+}
+
+.buttons-main{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-main-explorer{
+  background-color: var(--color-pink);
+  padding: 14px 24px;
+  color: var(--color-white);
+  border-radius: 10px;
+  gap: 6px;
+  font-family: var(--font-body);
+  height: 140%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-main-explorer:hover{
+  background-color: rgb(194, 7, 122);
+}
+
+.btn-main-package{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 24px;
+  background-color: transparent;
+  border: 1.5px solid var(--color-d-gray);
+  font-family: var(--font-body);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-main-package:hover{
+  border: 1.7px solid rgb(155, 153, 153);
+}
+
+.btn-main-package p{
+  color: var(--color-white);
+  font-size: var(--font-body3);
+  font-family: var(--font-title);
+}
